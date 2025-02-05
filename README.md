@@ -86,18 +86,5 @@ This will prompt you to input:
 	•	Default region name
 	•	Default output format
 
-### Key Sections in the README:
-1. **Prerequisites**: Instructions for configuring AWS CLI and ensuring the right permissions are set.
-2. **Infrastructure Deployment**: Step-by-step guide to initialize, review, apply, and clean up the Terraform infrastructure.
-3. **Accessing the Application**: Details on how to access the deployed application (ECS or Lambda).
-4. **Notes**: Security advice (e.g., never push AWS credentials) and the importance of following best practices.
-5. **Directory Structure**: Help users understand the repo's structure.
 
-### Final Steps
-After updating the `README.md`, add and commit it:
-
-```bash
-git add README.md
-git commit -m "Added README with deployment instructions"
-git push origin master
 
