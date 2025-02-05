@@ -17,3 +17,12 @@ To run the container, use the following command:
 
 docker run -p 5000:5000 <your-dockerhub-username>/simpletimeservice:latest
 
+test:
+
+curl http://localhost:5000/
+
+You should receive a JSON response like:
+{
+  "ip": "172.17.0.1",
+  "timestamp": "2025-02-05 19:53:59"
+}
